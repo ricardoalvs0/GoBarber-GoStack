@@ -30,6 +30,7 @@
         "prettier/prettier": ["error", {
           "endOfLine": "auto"
         }],
+        "@typescript-eslint/camelcase": "off",
         "class-methods-use-this": "off",
         "import/extensions": [
             "error",

@@ -7,8 +7,10 @@ import {
   UpdateDateColumn,
 } from 'typeorm';
 
-@Entity('appointments')
-class Appointment {
+// KISS - Keep it Simple and Stupid
+
+@Entity('users')
+class User {
   @PrimaryGeneratedColumn('uuid')
   id: string;
 
@@ -28,4 +30,4 @@ class Appointment {
   updated_at: Date;
 }
 
-export default Appointment;
+export default User;
